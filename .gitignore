@@ -1,8 +1,6 @@
 # venv
 venv/
 .venv/
-env/
-.env/
 Lib/
 Scripts/
 include/
@@ -29,11 +27,6 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-
-# 環境変数（トークン等を含む場合）
-.env
-.env.local
-*.env
 
 # IDE / エディタ
 .idea/
