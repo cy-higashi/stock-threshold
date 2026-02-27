@@ -1,8 +1,21 @@
-version: '3.8'
-
 services:
+  apache:
+    image: httpd:2.4-alpine
+    container_name: chatwork-apache-proxy
+    ports:
+      - "8080:80"
+    volumes:
+      - ./apache/httpd-proxy.conf:/usr/local/apache2/conf/httpd.conf:ro
+    depends_on:
+      - chatwork-stub
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
   chatwork-stub:
     build: .
     container_name: chatwork-api-stub
-    ports:
-      - "8080:8080"
+    expose:
+      - "8080"

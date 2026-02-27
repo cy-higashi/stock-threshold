@@ -5,7 +5,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends socat \
 
 WORKDIR /stub
 COPY stub.sh start.sh ./
-RUN chmod +x stub.sh start.sh
+RUN sed -i 's/\r$//' stub.sh start.sh && chmod +x stub.sh start.sh
 
 EXPOSE 8080
 

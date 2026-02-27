@@ -1,0 +1,1 @@
+docker exec -it chatwork-api-stub bash
