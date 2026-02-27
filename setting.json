@@ -1,0 +1,173 @@
+{
+  "chatwork": {
+    "api_base_url": "http://localhost:8080",
+    "room_id": "1234567890",
+    "message_endpoint": "/v2/rooms/{room_id}/messages",
+    "mention_members": [
+      {
+        "name": "テストユーザ",
+        "account_id": 11036323
+      }
+    ]
+  },
+  "excel_base_path": "G:\\共有ドライブ\\★OD\\99_在庫管理\\しきい値アラート",
+  "portals": {
+    "amazon": {
+      "mapping": {
+        "product_code_column": "出品者SKU",
+        "stock_column": "数量"
+      }
+    },
+    "ana": {
+      "mapping": {
+        "product_code_column": "返礼品識別コード",
+        "stock_column": ""
+      }
+    },
+    "aupay": {
+      "mapping": {
+        "product_code_column": "商品コード",
+        "stock_column": ""
+      }
+    },
+    "choice": {
+      "has_header": false,
+      "mapping": {
+        "product_code_column_index": 0,
+        "stock_column_index": 1
+      }
+    },
+    "dokodemo": {
+      "mapping": {
+        "product_code_column": "non_numeric_external_product_id",
+        "stock_column": "non_numeric_product_name"
+      }
+    },
+    "forgood": {
+      "mapping": {
+        "product_code_column": "返礼品ID（システム連携用）",
+        "stock_column": ""
+      }
+    },
+    "furulabo": {
+      "mapping": {
+        "product_code_column": "返礼品番号",
+        "stock_column": ""
+      }
+    },
+    "furunavi": {
+      "mapping": {
+        "product_code_column": "外部返礼品コード",
+        "stock_column": ""
+      }
+    },
+    "Furusapon": {
+      "mapping": {
+        "product_code_column": "管理コード",
+        "stock_column": ""
+      }
+    },
+    "furusatodirect": {
+      "mapping": {
+        "product_code_column": "商品コード",
+        "stock_column": ""
+      }
+    },
+    "furusatohonpo": {
+      "mapping": {
+        "product_code_column": "管理用ID",
+        "stock_column": ""
+      }
+    },
+    "furusatoravel": {
+      "mapping": {
+        "product_code_column": "返礼品番号",
+        "stock_column": ""
+      }
+    },
+    "furusatoseikatu": {
+      "mapping": {
+        "product_code_column": "商品コード",
+        "stock_column": ""
+      }
+    },
+    "Hyakusen": {
+      "mapping": {
+        "product_code_column": "管理コード",
+        "stock_column": ""
+      }
+    },
+    "Ikkyuu": {
+      "mapping": {
+        "product_code_column": "管理コード",
+        "stock_column": ""
+      }
+    },
+    "iris": {
+      "mapping": {
+        "product_code_column": "管理コード",
+        "stock_column": ""
+      }
+    },
+    "jal": {
+      "mapping": {
+        "product_code_column": "返礼品番号",
+        "stock_column": ""
+      }
+    },
+    "jre": {
+      "mapping": {
+        "product_code_column": "品番1",
+        "stock_column": ""
+      }
+    },
+    "jrkyushu": {
+      "mapping": {
+        "product_code_column": "管理コード",
+        "stock_column": ""
+      }
+    },
+    "manpuku": {
+      "mapping": {
+        "product_code_column": "管理コード",
+        "stock_column": ""
+      }
+    },
+    "myfuru": {
+      "mapping": {
+        "product_code_column": "返礼品番号",
+        "stock_column": ""
+      }
+    },
+    "mynavi": {
+      "mapping": {
+        "product_code_column": "返礼品番号",
+        "stock_column": ""
+      }
+    },
+    "palette": {
+      "mapping": {
+        "product_code_column": "お礼品番号",
+        "stock_column": ""
+      }
+    },
+    "premium": {
+      "mapping": {
+        "product_code_column": "SKU",
+        "stock_column": ""
+      }
+    },
+    "rakuten": {
+      "mapping": {
+        "product_code_column": "管理コード",
+        "stock_column": ""
+      }
+    },
+    "saishunkan": {
+      "mapping": {
+        "product_code_column": "管理コード",
+        "stock_column": ""
+      }
+    }
+  }
+}

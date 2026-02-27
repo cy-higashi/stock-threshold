@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  chatwork-stub:
+    build: .
+    container_name: chatwork-api-stub
+    ports:
+      - "8080:8080"
